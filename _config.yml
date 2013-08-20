@@ -1,4 +1,4 @@
 name: Vaclav Dedik
-markdown: redcarpet
 pygments: true
 timezone: Europe/Prague
+permalink: /blog/:categories/:year/:month/:day/:title
