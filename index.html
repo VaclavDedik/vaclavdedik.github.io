@@ -5,8 +5,14 @@ title: Vaclav Dedik
 <div class="page-header">
 	<h1>Blog Posts</h1>
 </div>
-<ul class="posts">
+<div class="posts">
 {% for post in site.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <div class="post">
+  	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+  	<span class="pull-right">{{ post.date | date_to_string }}</span>
+  	<p class="lead">
+  		{{ post.excerpt }}
+  	</p>
+  </div>
 {% endfor %}
-</ul>
+</div>
