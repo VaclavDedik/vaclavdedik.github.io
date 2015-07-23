@@ -1,18 +1,20 @@
 ---
 layout: default
-title: Vaclav Dedik
+title: Václav Dedík Home
+container-css: main
 ---
-<div class="page-header">
-	<h1>Blog Posts</h1>
-</div>
-<div class="posts">
-{% for post in site.posts %}
-  <div class="post">
-  	<h4><a href="{{ post.url }}" data-disqus-identifier="{{ post.url }}">{{ post.title }}</a></h4>
-  	<span class="pull-right">{{ post.date | date_to_string }}</span>
-  	<p class="lead">
-  		{{ post.excerpt }}
-  	</p>
-  </div>
-{% endfor %}
+<div class="main-header">
+    <h1 class="main-title">Václav Dedík</h1>
+    <p class="main-description">I am a Java and Python programmer who currently works as a Software Engineer at <a href="http://redhat.com">Red Hat</a>.</p>
+    <div>
+        <a href="https://github.com/VaclavDedik" title="Github">
+            <i class="fa fa-github fa-4x"></i>
+        </a>
+        <a href="https://plus.google.com/+VaclavDedik" title="Google Plus">
+            <i class="fa fa-google-plus-square fa-4x"></i>
+        </a>
+        <a href="https://cz.linkedin.com/in/vaclavdedik" title="LinkedIn">
+            <i class="fa fa-linkedin-square fa-4x"></i>
+        </a>
+    </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello World!!!"
+title:  "Test Blog Post"
 date:   2013-08-20 12:15:53
 ---
 
@@ -42,11 +42,3 @@ Blockquotes:
 
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
-
-Horizontal rules:
-
----
-
-***
-
-___

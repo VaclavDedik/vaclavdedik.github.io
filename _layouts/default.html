@@ -3,58 +3,51 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Vaclav Dedik">
 
-        <!-- syntax highlighting CSS -->
+        <title>{{ page.title }}</title>
+
+        <!-- Syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Bootstrap CSS 3.0.0 -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-
-        <!-- Wrap all page content here -->
-        <div id="wrap">
-          <!-- Fixed navbar -->
-          <div class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">{{ site.name }}</a>
-              </div>
-              <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="/">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div><!--/.nav-collapse -->
+        <div class="wrapper">
+            <!-- Navigator bar -->
+            <div class="blog-masthead">
+                <div class="container">
+                    <nav class="blog-nav">
+                        <a class="blog-nav-item {%if page.url == '/index.html'%}active{%endif%}"
+                           href="/">Home</a>
+                        <a class="blog-nav-item {%if page.url == '/blog.html'%}active{%endif%}"
+                           href="#">Blog</a>
+                    </nav>
+                </div>
             </div>
-          </div>
 
-          <div class="container">
-            {{ content }}
-          </div> <!-- /container -->
-        </div> <!-- /wrap -->
+            <div class="container {{ page.container-css }}">
+                {{ content }}
+            </div> <!-- /container -->
 
-        <div id="footer">
-          <div class="container">
-            <p class="text-muted credit">Vaclav Dedik</p>
-          </div>
-        </div> <!-- /footer -->
+            <footer class="blog-footer {{ page.container-css }}">
+                <p class="text-muted credit">©2013–2015 Václav Dedík</p>
+                <p><a href="#">Back to top</a></p>
+            </footer>
+        </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 
-        <!-- Bootstrap JS 3.0.0 -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <!-- Bootstrap JS-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>
 </html>
