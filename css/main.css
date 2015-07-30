@@ -244,3 +244,7 @@ a .fa:hover {
 .fa-linkedin-square:hover {
   color: #4795BD;
 }
+
+a.icon-only:hover {
+  text-decoration: none;
+}
