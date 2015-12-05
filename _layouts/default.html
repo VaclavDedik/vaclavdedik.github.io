@@ -37,10 +37,10 @@
             <div class="blog-masthead">
                 <div class="container">
                     <nav class="blog-nav">
-                        <a class="blog-nav-item {%if page.url == '/index.html'%}active{%endif%}"
-                           href="/">Home</a>
-                        <a class="blog-nav-item {%if page.url == '/blog.html'%}active{%endif%}"
-                           href="#">Blog</a>
+                        {% for link in site.navigation %}
+                        <a class="blog-nav-item {%if page.url == link.url or page.nav_group == link.url%}active{%endif%}"
+                           href="{{link.url}}">{{link.text}}</a>
+                        {% endfor %}
                     </nav>
                 </div>
             </div>

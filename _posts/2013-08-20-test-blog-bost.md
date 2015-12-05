@@ -2,6 +2,7 @@
 layout: post
 title:  "Test Blog Post"
 date:   2013-08-20 12:15:53
+nav_group: /blog/
 ---
 
 Some markown examples to help me develop this website:

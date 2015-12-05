@@ -1,5 +1,10 @@
 name: Vaclav Dedik
 timezone: Europe/Prague
-permalink: /blog/:categories/:year/:month/:day/:title
+permalink: /blog/:title
 highlighter: pygments
 markdown: kramdown
+navigation:
+- text: Home
+  url: /
+- text: Blog
+  url: /blog/
