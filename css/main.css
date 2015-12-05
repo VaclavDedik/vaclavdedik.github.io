@@ -2,6 +2,10 @@
  * Globals
  */
 
+* {
+  margin: 0;
+}
+
 html, body {
   height: 100%;
 }
@@ -13,14 +17,7 @@ body {
 
 .wrapper {
   min-height: 100%;
-}
-
-.container.main {
-  position: absolute;
-  top: 50%;
-  margin-top: -180px;
-  left: 0;
-  width: 100%;
+  margin-bottom: -91px; 
 }
 
 h1, .h1,
@@ -93,15 +90,18 @@ h6, .h6 {
  * Main page
  */
 
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
 .main-header {
   text-align: center;
-
-  margin-left: auto;
-  margin-right: auto;
   height: 400px;
 }
 .main-title {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 0;
   font-size: 60px;
   font-weight: normal;
@@ -199,11 +199,6 @@ h6, .h6 {
   text-align: center;
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
-}
-.blog-footer.main {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
