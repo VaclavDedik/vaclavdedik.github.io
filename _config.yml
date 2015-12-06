@@ -1,6 +1,6 @@
 name: Vaclav Dedik
 timezone: Europe/Prague
-permalink: /blog/:title
+permalink: /blog/:title/
 highlighter: pygments
 markdown: kramdown
 exclude: [vendor]
