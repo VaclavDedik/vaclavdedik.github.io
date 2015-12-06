@@ -276,3 +276,12 @@ a.icon-only:hover {
 .blog-tag-item a, .blog-tag-item a:hover{
     color: white;
 }
+
+/*
+ * Others
+ */
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
