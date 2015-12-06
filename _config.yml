@@ -3,6 +3,7 @@ timezone: Europe/Prague
 permalink: /blog/:title
 highlighter: pygments
 markdown: kramdown
+exclude: [vendor]
 navigation:
 - text: Home
   url: /
