@@ -2,6 +2,12 @@
 layout: post
 title:  "Test Blog Post 2"
 date:   2015-07-12 17:51:53
+tags:
+- test
+- blog
+- post
+- machine learning
+
 nav_group: /blog/
 ---
 

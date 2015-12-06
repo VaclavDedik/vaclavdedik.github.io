@@ -1,7 +1,14 @@
 <div class="blog-sidebar col-sm-3 col-sm-offset-1">
     <div class="sidebar-module sidebar-module-inset">
         <h4>Tags</h4>
-        <p>test, neco, jako, tag, module, insert, machine, learning</p>
+        <ul class="list-unstyled blog-tags-list">
+        {% for tag in site.tags %}
+            <li class="blog-tag-item"><a href="/blog/#{{ tag[0] | remove: ' ' }}">{{ tag[0] }}</a></li>
+        {% endfor %}
+        </ul>
+        <p>
+            <a href="#">Show all posts</a>
+        </p>
     </div>
 
     <div class="sidebar-module">

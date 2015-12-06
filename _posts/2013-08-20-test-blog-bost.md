@@ -2,6 +2,9 @@
 layout: post
 title:  "Test Blog Post"
 date:   2013-08-20 12:15:53
+tags:
+- test
+- post
 nav_group: /blog/
 ---
 

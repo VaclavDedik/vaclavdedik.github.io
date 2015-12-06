@@ -165,15 +165,19 @@ h6, .h6 {
 
 
 /* Pagination */
+.pager-nav{
+  margin: 0 160px;
+}
 .pager {
   margin-bottom: 60px;
   text-align: left;
 }
 .pager > li > a {
-  width: 140px;
+  width: 300px;
   padding: 10px 20px;
   text-align: center;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 
@@ -251,4 +255,24 @@ a .fa:hover {
 
 a.icon-only:hover {
   text-decoration: none;
+}
+
+/*
+ * Tags
+ */
+.blog-tags-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.blog-tag-item {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #5bc0de;
+    border-radius: 2px;
+}
+
+.blog-tag-item a, .blog-tag-item a:hover{
+    color: white;
 }
