@@ -20,6 +20,11 @@ body {
   margin-bottom: -91px; 
 }
 
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -124,7 +129,7 @@ h6, .h6 {
 .blog-title {
   margin-top: 30px;
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: normal;
 }
 .blog-description {
@@ -202,6 +207,10 @@ h6, .h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.blog-footer, .wrapper:after {
+  height: 91px; 
 }
 
 /*

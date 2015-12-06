@@ -1,17 +1,30 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="blog-header">
+    <h1 class="blog-title">Václav Dedík's Blog</h1>
+    <p class="lead blog-description">...about computer science, machine learning &amp; everything...</p>
+</div>
 
-<div class="post">
-    {{ content }}
+<div class="row">
+    <div class="col-sm-8 blog-main">
+        <hr>
+        <div class="blog-post">
+            <h2 class="blog-post-title">{{ page.title }}</h2>
+            <p class="blog-post-meta">{{ page.date | date_to_string }}</p>
+
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    {% include blog-sidebar.html %}
 </div>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'vaclavdedik';
-
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
