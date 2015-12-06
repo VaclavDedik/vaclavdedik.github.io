@@ -33,6 +33,7 @@ Aliquam dapibus lacus ac sapien fermentum feugiat. Morbi accumsan blandit arcu, 
 Duis in eleifend augue. Morbi euismod bibendum sem fermentum pulvinar. Mauris feugiat ligula ipsum, vel aliquam justo mattis et. Cras et lobortis nibh. Suspendisse porta eros quis neque fermentum, et fringilla est dictum. Nulla posuere purus scelerisque, luctus tellus a, pharetra felis. Vivamus sit amet faucibus est. Aliquam volutpat orci mi, eu pellentesque metus vehicula eget. Nullam nec ante nec quam pretium porttitor vel at sapien. Maecenas mauris urna, dapibus eget tincidunt nec, luctus ut quam. Integer sed est pulvinar, rutrum sapien et, fringilla purus. Curabitur suscipit, diam eu condimentum luctus, quam lorem vestibulum arcu, a blandit quam urna sed massa. Suspendisse faucibus euismod purus, quis vestibulum odio efficitur sed. Etiam nec condimentum est. Sed efficitur, mauris eget placerat varius, dolor nisl imperdiet ante, at faucibus nunc turpis non sapien. Sed ac erat eget dolor aliquam molestie nec ullamcorper metus. [I'm an inline-style link](https://www.google.com).
 
 ![alt text](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQMtGOh7XDMeJEmwZxoKcU_n7joA5KqCZJQtV7lLcpzutq4LXE0 "CC")
+{: align="middle"}
 
 Proin laoreet luctus ullamcorper. Duis a libero vestibulum, sodales neque a, egestas enim. Vestibulum eget arcu odio. Quisque vitae hendrerit sapien. Vestibulum tempus a mauris et dapibus. Fusce hendrerit molestie turpis sit amet porttitor. Sed in maximus augue. Vestibulum at rhoncus nulla. Sed condimentum placerat malesuada.
 
@@ -43,6 +44,7 @@ Donec et pharetra orci. In tincidunt purus velit, vitae sollicitudin purus fring
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+{:.table}
 
 Sed tincidunt dolor ut mi tincidunt, et eleifend ipsum scelerisque. Duis aliquam tortor at vulputate vulputate. Aenean ultricies faucibus metus nec vestibulum. Pellentesque ac nulla in nisl efficitur ultrices. Duis tempus tincidunt est ac rhoncus. Aliquam vitae feugiat nunc. Nullam id nunc odio. Mauris mollis id tellus ac rhoncus. Etiam in semper justo. Vestibulum eleifend metus nec aliquam finibus. Ut bibendum nunc eu varius pharetra.
 
