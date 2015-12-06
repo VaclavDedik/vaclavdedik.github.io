@@ -41,7 +41,8 @@
                 <div class="container">
                     <nav class="blog-nav">
                     {% for link in site.navigation %}
-                        <a class="blog-nav-item {%if page.url == link.url or page.nav_group == link.url%}active{%endif%} {%if link.url == '/blog/'%}disabled{%endif%}" href="{{link.url}}">{{link.text}}</a>
+                        {% assign curr_url = page.url | remove: "index.html" %}
+                        <a class="blog-nav-item {%if curr_url == link.url or page.nav_group == link.url%}active{%endif%} {%if link.url == '/blog/'%}disabled{%endif%}" href="{{link.url}}">{{link.text}}</a>
                     {% endfor %}
                     </nav>
                 </div>
