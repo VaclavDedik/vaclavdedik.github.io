@@ -3,7 +3,7 @@ rvm:
 - 2.1
 
 install: gem install jekyll pygments.rb html-proofer
-script: jekyll build && htmlproof ./_site --allow-hash-href --href-ignore '//blog/\#[a-z]+/' --disable-external
+script: jekyll build && htmlproof ./_site --href-ignore '//blog/\#[a-z]+/' --disable-external
 
 env:
   global:
