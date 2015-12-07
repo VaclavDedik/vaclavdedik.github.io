@@ -34,14 +34,14 @@
             ga('send', 'pageview');
         </script>
     </head>
-    <body>
+    {% assign curr_url = page.url | remove: "index.html" %}
+    <body {% if curr_url == '/blog/' %}onhashchange="load_blog_posts(10)" onload="load_blog_posts(10)"{% endif %}>
         <div class="wrapper">
             <!-- Navigator bar -->
             <div class="blog-masthead">
                 <div class="container">
                     <nav class="blog-nav">
                     {% for link in site.navigation %}
-                        {% assign curr_url = page.url | remove: "index.html" %}
                         <a class="blog-nav-item {%if curr_url == link.url or page.nav_group == link.url%}active{%endif%} {%if link.url == '/blog/'%}disabled{%endif%}" href="{{link.url}}">{{link.text}}</a>
                     {% endfor %}
                     </nav>

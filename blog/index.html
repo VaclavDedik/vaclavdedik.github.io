@@ -10,6 +10,7 @@ title: Václav Dedík's Blog
 <div class="row">
     <div class="col-sm-8 blog-main">
         <div class="blog-posts">
+        {% assign posts_count = site.posts | size %}
         {% for post in site.posts %}
             <div class="blog-post" {% if forloop.index > 10 %}style="display: none;"{% endif %}>
                 <hr>
@@ -31,13 +32,17 @@ title: Václav Dedík's Blog
                 </div>
             </div>
         {% endfor %}
+
+            <div class="blog-post centered" {% if posts_count != 0 %}style="display: none;"{% endif %}>
+                <hr>
+                <p id="no-blog-posts-message">There are currently no blog posts.</p>
+            </div>
         </div>
 
-        {% assign posts_count = site.posts | size %}
         {% if posts_count > 10 %}
         <nav class="pager-nav">
             <ul class="pager">
-                <li><a onclick="load_more(10)">Show 10 more...</a></li>
+                <li><a onclick="load_blog_posts(10, true)">Show 10 more...</a></li>
             </ul>
         </nav>
         {% endif %}
