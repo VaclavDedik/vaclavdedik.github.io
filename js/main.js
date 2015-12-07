@@ -22,6 +22,8 @@ function load_blog_posts(n, show_more) {
         } else if (!valid_post && visible_post) {
             $(elem).hide();
             counter--;
+        } else if (valid_post && visible_post) {
+            no_posts = false;
         }
         if ($(elem).is(":last-child")) {
             $(".pager-nav").hide();
