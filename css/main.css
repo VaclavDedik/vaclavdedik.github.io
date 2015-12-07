@@ -233,7 +233,7 @@ a .fa:hover {
   color: black;
 }
 
-.fa-github:hover {
+a .fa-github:hover {
   color: gray;
 }
 
@@ -241,7 +241,7 @@ a .fa:hover {
   color: #dd4b39;
 }
 
-.fa-google-plus-square:hover {
+a .fa-google-plus-square:hover {
   color: #D5857B;
 }
 
@@ -249,12 +249,20 @@ a .fa:hover {
   color: #0077B5;
 }
 
-.fa-linkedin-square:hover {
+a .fa-linkedin-square:hover {
   color: #4795BD;
 }
 
 a.icon-only:hover {
   text-decoration: none;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
 }
 
 /*
@@ -288,4 +296,8 @@ a.disabled {
 
 .centered {
     text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
 }
