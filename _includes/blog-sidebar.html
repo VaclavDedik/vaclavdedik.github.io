@@ -22,11 +22,12 @@
 
     <div class="sidebar-module">
         <h4>Search</h4>
-        <form>
+        <form action="https://www.google.com/search" method="GET" target="_blank">
             <div class="form-group">
-                <input type="text" class="form-control" id="search-box-input" placeholder="Search...">
+                <input type="text" class="form-control" id="search-box-input" name="q" placeholder="Search...">
+                <input type="hidden"  name="sitesearch" value="vaclavdedik.com/blog/" checked>
             </div>
-            <button type="submit" class="btn btn-primary">Search</button>
+            <button type="submit" class="btn btn-primary">Google Search</button>
         </form>
     </div>
 </div>
