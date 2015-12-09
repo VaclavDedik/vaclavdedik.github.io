@@ -21,6 +21,14 @@ body {
   color: rgba(0,0,0,0.8);
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
 .wrapper {
   min-height: 100%;
   margin-bottom: -91px;
@@ -217,6 +225,12 @@ h3, .h3 {
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: 40px;
+}
+.blog-post-title a {
+  color: #000;
+}
+.blog-post-title a:hover {
+  color: #23527c;
 }
 .blog-post-meta {
   margin-top: 5px;
