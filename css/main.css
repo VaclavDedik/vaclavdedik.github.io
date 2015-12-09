@@ -50,6 +50,10 @@ h3, .h3 {
   font-size: 28px;
   color: rgba(0,0,0,0.44);
 }
+
+.blog-sidebar h2, .blog-sidebar  h3, .blog-sidebar  h4, .blog-sidebar  h5 {
+    margin-top: 0;
+}
 /*
  * Override Bootstrap's default container.
  */
