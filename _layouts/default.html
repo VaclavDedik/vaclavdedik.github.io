@@ -6,7 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Vaclav Dedik">
 
+        {% if page.subtitle %}
+        <title>{{ page.title }} – {{ page.subtitle }}</title>
+        {% else %}
         <title>{{ page.title }}</title>
+        {% endif %}
 
         <!-- Syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -61,7 +65,7 @@
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="/js/jquery-1.11.3.min.js"></script>
 
-        <!-- Bootstrap JS-->
+        <!-- Bootstrap JS {{ page.subtitle }} -->
         <script src="/js/bootstrap.min.js"></script>
     </body>
 </html>

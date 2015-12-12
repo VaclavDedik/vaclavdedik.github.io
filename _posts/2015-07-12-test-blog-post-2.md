@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Test Blog Post 2"
 date:   2015-07-12 17:51:53
 tags:
@@ -7,8 +6,6 @@ tags:
 - blog
 - post
 - machine learning
-
-nav_group: /blog/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum turpis vitae augue commodo, eget rhoncus leo vulputate. Suspendisse eget fermentum erat. Nullam pretium urna vel vehicula tempus. Fusce efficitur, mauris non semper semper, nibh lorem ultricies nulla, sed dapibus nibh libero eget turpis. Ut viverra ante magna. Proin posuere egestas fringilla. Vestibulum rutrum condimentum arcu, at aliquet eros pharetra non. Cras quis convallis risus. Aliquam suscipit pellentesque aliquam. Proin efficitur in lectus in consectetur. Suspendisse potenti. Pellentesque et justo dolor.

@@ -10,3 +10,12 @@ navigation:
   url: /
 - text: Blog
   url: /blog/
+defaults:
+  -
+    scope:
+        path: ""
+        type: "posts"
+    values:
+        layout: post
+        subtitle: "Václav Dedík's Blog"
+        nav_group: /blog/
