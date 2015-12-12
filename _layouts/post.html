@@ -16,6 +16,14 @@ layout: default
             <div class="content">
                 {{ content }}
             </div>
+
+            <div class="tags">
+                <ul class="list-unstyled blog-tags-list">
+                {% for tag in page.tags %}
+                    <li class="blog-tag-item tag-{{ tag | remove: ' ' }}"><a href="/blog/#{{ tag | remove: ' ' }}">{{ tag }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 
