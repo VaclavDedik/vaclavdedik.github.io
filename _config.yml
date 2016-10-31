@@ -1,7 +1,7 @@
 name: Vaclav Dedik
 timezone: Europe/Prague
 permalink: /blog/:title/
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 exclude: [vendor, README.md]
 url: http://vaclavdedik.com
