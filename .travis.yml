@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-- 2.1
+- 2.2.5
 
 install: gem install jekyll pygments.rb html-proofer
-script: jekyll build && htmlproof ./_site --href-ignore '//blog/\#[a-z]+/' --disable-external
+script: jekyll build && htmlproofer ./_site --url-ignore '//blog/\#[a-z]+/' --disable-external
 
 env:
   global:
