@@ -135,7 +135,7 @@ It's likely you don't have a static IP address. If that is so, your public IP ad
 git clone https://github.com/VaclavDedik/cloudflare-dns-updater.git
 {% endhighlight %}
 
-And modify the `crontab` and `run.sh` files. To find your AP key, go to your CloudFlare settings. To find your zone id, run the following command:
+And modify the `crontab` and `run.sh` files. To find your API key, go to your CloudFlare settings. To find your zone id, run the following command:
 
 {% highlight Bash shell scripts %}
 curl -X GET "https://api.cloudflare.com/client/v4/zones"
