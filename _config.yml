@@ -4,7 +4,7 @@ permalink: /blog/:title/
 highlighter: rouge
 markdown: kramdown
 exclude: [vendor, README.md]
-url: http://vaclavdedik.com
+url: https://vaclavdedik.com
 navigation:
 - text: Home
   url: /
