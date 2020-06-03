@@ -293,12 +293,12 @@ a .fa-github:hover {
   color: gray;
 }
 
-.fa-twitter {
-  color: #55ACEE;
+.fa-medium {
+  color: black;
 }
 
-a .fa-twitter:hover {
-  color: #7ABBED;
+a .fa-medium:hover {
+  color: gray;
 }
 
 .fa-linkedin-square {
