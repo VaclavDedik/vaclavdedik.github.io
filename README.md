@@ -20,7 +20,7 @@ GitHub Pages publishes the root of `master`. Keep `.nojekyll` to serve the site 
 
 - `index.html`: profile, social links, metadata, and copyright year.
 - `css/main.css`: theme, layout, and mobile breakpoints.
-- `img/peony.webp`: original generated botanical illustration.
+- `img/peony*.webp`: compressed botanical illustration in 480, 768, and 1122 pixel widths; the browser selects a suitable size for the viewport and pixel density.
 - `img/favicon.svg`: browser icon.
 - `404.html`: fallback for missing pages, including retired article URLs.
 
