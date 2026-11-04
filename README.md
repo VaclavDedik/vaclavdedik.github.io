@@ -24,4 +24,4 @@ GitHub Pages publishes the root of `master`. Keep `.nojekyll` to serve the site 
 - `img/favicon.svg`: browser icon.
 - `404.html`: fallback for missing pages, including retired article URLs.
 
-The existing profile URLs intentionally retain the previous username.
+The GitHub profile URL intentionally retains the previous username.
